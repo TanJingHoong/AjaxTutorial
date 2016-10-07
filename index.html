@@ -2,12 +2,35 @@
 <html>
     <head>
         <script type = "text/javascript" src = "foodstore.js"></script> <!-- link to javascript file -->
+        <link href = "bucky.css" type = "text/css" rel="stylesheet">
     </head>
     <body onload = "process()">
+    <table id="table">
+        	<tr>
+        		<th id ="tableHead">
+        			Things in my pocket
+        		</th>
+        	</tr>
+        	<tr>
+        		<td id = "item1"> 
+        			Chopstick
+        		</td>
+        	</tr>
+        	<tr>
+        		<td id = "item2"> 
+        			Cell Phone
+        		</td>
+        	</tr>
+        </table>
+
+        <input type = "button" value="Im a dude" onclick ="dude();" />
+        <input type = "button" value="Im a chick" onclick ="chick();" />
+
         <h3>The Chuff Bucket</h3>
         Enter the food you would like to order:
         <input type = "text" id = "userInput" />
         <div id = "underInput" />
+        
         
     </body>
 </html>

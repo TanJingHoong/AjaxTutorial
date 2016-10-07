@@ -1,3 +1,27 @@
+function dude(){
+	table = document.getElementById("table");
+	th = document.getElementById("tableHead");
+	item1 = document.getElementById("item1");
+	item2 = document.getElementById("item2");
+	
+	table.className = "dudeTable"
+	th.className = "dudeHead"
+	item1.className = "dudeItem"
+	item2.className = "dudeItem"
+}
+
+function chick(){
+	table = document.getElementById("table");
+	th = document.getElementById("tableHead");
+	item1 = document.getElementById("item1");
+	item2 = document.getElementById("item2");
+	
+	table.className = "chickTable"
+	th.className = "chickHead"
+	item1.className = "chickItem"
+	item2.className = "chickItem"
+}
+
 var xmlHttp = createXmlHttpRequestObject(); /* Initiate the request */
 
 function createXmlHttpRequestObject(){
